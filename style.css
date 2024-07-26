@@ -1,0 +1,75 @@
+/* Ensure the body and html take up the full height of the viewport */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6b79a;
+}
+
+.main h2 {
+  top: 0%;
+  position: absolute;
+  color: #4b7157 ;
+  font: bolder 2rem sans-serif;
+}
+
+.display {
+  padding: 2em;
+  background-color: #4b7157;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 500px;
+  color: #ecddc1;
+}
+
+.display #inputDisplay {
+  display: flex;
+
+}
+
+.display #inputDisplay input{
+  width:10%;
+  padding: 0.3em;
+  margin:  auto 0.5rem;
+  border-radius: 8px;
+  border: none;
+  font: normal 1rem sans-serif ;
+  color: #7c7979;
+}
+label{
+ font: bold 1rem sans-serif;
+  padding: 0.3em ;
+}
+
+#displayValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 1em;
+  font: bold 3rem sans-serif;
+}
+
+#btn{
+  margin:  auto 2em;
+  border-radius: 7px;
+  border: 0.5px white;
+ 
+  background-color: #4f436b;
+  color: #b8b1a3 ;
+  font-size: 1rem;
+  padding: 0.3em 1em 0.3em 1em;
+}
+
+#btn:hover{
+  background-color: #92a099;
+  color: #4f436b;
+}
